@@ -68,3 +68,30 @@ header{
     font-size: 32px;
     font-family: Brandon-Light;
 }
+
+/* development section */
+
+.development, .brand{
+    padding: 100px 0;
+}
+
+.develop-content{
+    text-align: justify;
+}
+
+.develop-content h1, .brand h1{
+    font-family: Brandon-Light;
+    font-size: 60px;
+    color: #222;
+}
+
+.develop-content p, .brand p{
+    font-size: 18px;
+    color: #777777;
+}
+
+/* brand section */
+
+.brand{
+    background-color: #fafafa;
+}
