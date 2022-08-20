@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Brandon;
+    src: url('./fonts/Brandon_reg.otf');
+}
+@font-face {
+    font-family: Brandon-Light;
+    src: url('./fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+}
+@font-face {
+    font-family: Brandon-Medium;
+    src: url('./fonts/Brandon_med.otf');
+}
+@font-face {
+    font-family: Brandon-Bold;
+    src: url('/fonts/Brandon_bld.otf');
+}
+@font-face {
+    font-family: Cubano;
+    src: url('./fonts/Cubano-Regular.otf');
+}
+
+*{
+    font-family: Brandon;
+}
+
+/* header start */
+
+header{
+    background-image: url('./images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 25px !important;
+    transition: .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgba(255, 255, 255, .7) !important;
+}
