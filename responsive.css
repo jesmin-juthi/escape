@@ -13,6 +13,9 @@
     .header-content h3{
         font-size: 22px;
     }
+    .flex-dir{
+        flex-direction: column-reverse;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
