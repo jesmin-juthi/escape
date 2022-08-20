@@ -27,6 +27,10 @@
     font-family: Brandon;
 }
 
+.navbar-toggler, .navbar-toggler-icon{
+    color: #fff !important;
+}
+
 /* header start */
 
 header{
