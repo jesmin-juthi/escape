@@ -139,13 +139,13 @@ header{
     margin-bottom: 50px;
 }
 
-.client-review{
+.client-review, .client-review2{
     background-color: #fff;
     padding: 50px 70px;
     position: relative;
     box-shadow: 0 0 8px #ededed;
 }
-/* 
+
 .client-review::before{
     content: '';
     position: absolute;
@@ -156,14 +156,32 @@ header{
     border-right: 20px solid #fff;
     border-bottom: 10px solid transparent;
     top: 45%;
-} */
+} 
 
-.client-review .review{
+.client-review2::after{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: -20px;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+    top: 45%;
+}
+
+.review{
     font-size: 26px;
     color: #777;
 }
 
-.client-review .author{
+.author{
     font-size: 20px;
     color: #7690c5;
+}
+
+/* branding */
+
+.branding{
+    padding: 50px 0;
 }

@@ -16,6 +16,10 @@
     .flex-dir{
         flex-direction: column-reverse;
     }
+    .mb-30{
+        margin-bottom: 30px;
+    }
+
     .features{
         text-align: center;
     }
