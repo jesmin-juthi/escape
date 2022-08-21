@@ -71,7 +71,7 @@ header{
 
 /* development section */
 
-.development, .brand, .features{
+.development, .brand{
     padding: 100px 0;
 }
 
@@ -79,7 +79,7 @@ header{
     text-align: justify;
 }
 
-.develop-content h1, .brand h1{
+.develop-content h1, .brand h1, .client-title h1{
     font-family: Brandon-Light;
     font-size: 60px;
     color: #222;
@@ -92,8 +92,14 @@ header{
 
 /* brand section */
 
-.brand{
+.brand, .clients{
     background-color: #fafafa;
+}
+
+/* features section */
+
+.features, .clients{
+    padding: 100px 0 50px;
 }
 
 .features-icon{
@@ -109,4 +115,55 @@ header{
     color: #fff;
     font-size: 25px;
     line-height: 60px;
+}
+
+/* clients section */
+
+
+.client-title{
+    margin-bottom: 80px;
+}
+
+.client-title p{
+    font-size: 22px;
+    color: #777777;
+}
+
+.client-img img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.clients-content{
+    margin-bottom: 50px;
+}
+
+.client-review{
+    background-color: #fff;
+    padding: 50px 70px;
+    position: relative;
+    box-shadow: 0 0 8px #ededed;
+}
+/* 
+.client-review::before{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: -20px;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+    top: 45%;
+} */
+
+.client-review .review{
+    font-size: 26px;
+    color: #777;
+}
+
+.client-review .author{
+    font-size: 20px;
+    color: #7690c5;
 }
