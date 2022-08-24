@@ -225,3 +225,28 @@ header{
     background-color: #fff;
     color: #222;
 }
+
+
+/* contact section */
+
+.contact{
+    background-color: #7690c5;
+    padding: 100px 0 10px;
+}
+
+.contact-title h1{
+    font-size: 60px;
+    font-family: Brandon-Light;
+}
+
+.contact-title p, .contact-info span{
+    font-size: 18px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-info i{
+    font-size: 30px;
+}
