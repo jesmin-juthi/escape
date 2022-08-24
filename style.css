@@ -250,3 +250,9 @@ header{
 .contact-info i{
     font-size: 30px;
 }
+
+::placeholder{
+    color: #bbbbbb !important;
+    font-size: 18px;
+    font-family: Brandon-Medium;
+}
